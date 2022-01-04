@@ -1,0 +1,652 @@
+    /*Header*, 1 секция*/
+
+	
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+/*Обёртка страницы*/
+
+.Wrapper{
+	max-width: 1920px;
+  margin: 0;
+  padding: 0;
+	font-family:'Montserrat', sans-serif;
+	font-size: 14px;
+}
+                   /*Header*/
+
+.Header {
+	width: 100%;
+	max-width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 117px;
+  }
+	/*Контакты*/
+
+.Phone__Wine-shop{
+  text-decoration: none;
+	color: white;
+	}
+  
+.Address__Wine-Shop{
+ 	font-style: normal;
+	}
+
+/*Навигация*/
+
+.Navigation {
+	height: 49px;
+	padding-top: 20px;
+  }
+  /*Контакты */
+
+.Header__Contacts {
+	font-weight: 500;
+	font-size: 13px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 30px;
+	height: 20px;
+	align-items:center;
+	}
+  
+  /*Навигация*/
+.Navigation__List {
+	font-weight: 400;
+	font-size: 14px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white ;
+  }
+  
+.Navigation__ListItem:last-of-type {
+	border-right: none;
+	min-width: 270px;
+  }
+
+.Navigation__ListItem:first-of-type{
+	min-width: 270px;
+	}
+
+.Navigation__ListItem {
+	height: 100%;
+	min-width: 285px;
+	border-right: 1px solid white;
+	display: flex;
+	height: 49px;
+	}
+  
+.Navigation__ListItem a {
+	margin: auto;
+  }
+
+.Link__ListItem{
+	text-decoration: none;
+	color: white;
+	}
+
+  /*Обёртка секции с фоном бутылки вина*/
+.Header__Section{
+	background-image: url("img/bottles-wine-bcg.png");
+	max-width: 1920px;
+	width:100%;
+	max-height: 900px;
+	height: 900px;
+	color: white;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	}
+		/*Кнопки Header__Section*/
+
+.Buttons-box__Header-Section{	
+	width: 385px;
+	height: 50px;
+	display: flex;
+	margin: auto;
+	margin-bottom: 150px;
+	justify-content: space-between;
+	}
+
+.Button__Header-section{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	background-color: #99862A;
+	color: white;
+	border: 1px solid #99862A;	
+ }
+
+.Wine-List{
+   min-width: 203px;
+	 min-height: 50px;
+	padding: 15px 30px;
+	margin-right: 15px;
+		}
+		
+.Wine-Tasting{
+  min-width: 182px;
+	min-height: 50px;
+	padding: 15px 30px;
+	margin-left: 15px;
+	}	
+
+.Header-Section__Button_Link{
+	font-family:'Montserrat', sans-serif;
+	text-decoration: none;
+	color: white;
+	padding:0;
+	}                    /*Main*}
+
+/*Описание страницы, 2 секция*/
+
+.Features-Section{
+	max-width: 1920px;
+	width: 100%;
+	min-height: 856px;
+	height: 100%;
+	background-color: #282828;
+	display: flex;
+	flex-direction: column;
+}
+
+.Features-Desc{
+	max-width: 1100px;
+	width: 100%;
+	min-height: 656px;
+	height: 100%;
+	border: 3px solid #C4C4C4;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.Features__Title{
+	font-family: 'Playfair Display', 'Montserrat', serif;
+	color: white;
+	font-size: 36px;
+	line-height: 54px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.Features__Text{
+	color: white;
+	line-height: 24px;
+	width: 733px;
+	text-align: center;
+	margin: auto;
+	margin-top: 80px;
+	position: relative;	
+}
+
+.Features__Text::before{
+	content: '';
+	position: absolute;
+	top: -40px;
+	left: 39%;
+	display: block;
+	width: 160px;
+	background-color: #FFFFFF;
+	height: 1px;
+}
+
+.Features__Icon{
+	width: 160px;
+	height: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+
+/*Новинки коллекций, 3 секция*/
+
+.Collection-Section{
+	max-width: 1920px;
+	width: 100%;
+	min-height: 1038px;
+	height: 100%;
+	background-color: #E6E3C4;
+	display: flex;
+	flex-direction: column;
+}
+
+.New-Collection{
+	width: 1100px;
+	min-height: 878px;
+	border-top: 1px solid #998431;
+	border-bottom: 1px solid #998431;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.Collection-Main{
+	margin: auto;
+}
+/*Внутренняя обёртка текста и таблицы*/
+.New-Collection_Inner-Text--Rigth-Column{
+	display: flex;
+	flex-direction: column;
+	max-width: 570px;
+	height: 878px;
+	margin: 0;
+}
+/*_____________________________________*/
+
+/*Текстовая информация левая колонка*/
+.New-Collection__Name-Section{
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 0;
+	line-height: 24px;
+	width: 347px;	
+}
+
+
+.New-Collection__Title{
+	font-family: 'Playfair Display', 'Montserrat', serif;
+	width: 298px;
+	font-size: 36px;
+	line-height: 54px;
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.New-Collection__Title::after{
+	content: '';
+	position: absolute;
+	bottom: -30px;
+	display: block;
+	width: 160px;
+	background-color: black;
+	height: 1px;
+}
+
+.New-Collection__Info-Text--Top{
+	
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 0;
+	line-height: 21px;
+	width: 445px;
+	margin-bottom: 30px;
+}
+
+/*Таблица список наименования новой коллеции*/
+
+.New-Collection__List-Product{
+	width: 445px;
+	height: 228px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.Top-Row{
+	min-height: 73px;
+	border-bottom: 1px solid black;
+}
+
+.Middle-Row{
+	min-height: 78px;
+	border-bottom: 1px solid black;
+}
+
+.Bottom-Row{
+	min-height: 77px;
+}
+
+.Year-Product{
+	border-right: 1px solid black;
+ 	border-bottom: 1px solid black;
+ 	width: 75px;
+  padding: 0;
+}
+
+.Bottom-Year{
+	border-bottom: none;
+}
+
+.Name-Product{
+	font-family: 'Playfair Display', 'Montserrat', serif;
+	font-size: 18px;
+	margin: 0;
+	width: 303px;
+  line-height: 27px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.Describe-Product {
+	font-size: 14px;
+	width: 271px;
+	margin: 0;
+	margin-left: 30px;
+	line-height: 21px;
+}
+/*______________________________________________*/
+
+.New-Collection__Info-Text--Bottom{
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 445px;
+}
+/*Кнопка в новой коллекции*/
+
+.Learn-More{
+	width: 254px;
+	min-height: 50px;
+	background-color: #998431;
+	border: none;
+	padding: 0;
+	
+}
+
+.New-Collection__Link-Info{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	font-family:'Montserrat', sans-serif;
+}
+	/*_______________________________________*/
+	
+	/*Картинки, правая колонка*/
+
+.New-Collection_Gallery--Left-Column{
+	display: flex;
+	flex-direction: column;
+}
+
+.Glass-Wine{
+	background-image: url('img/glass-wine.png');
+	width: 540px;
+	height: 500px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.Container-Horizontal-img{
+	display: flex;
+	width: 540px;
+	margin-bottom: 60px;
+}
+
+.Bottles-Wine-Shelf{
+	background-image: url('img/bottle-shelf.png');
+	width: 255px;
+	height: 228px;
+}
+
+.Bottles-Wine{
+	background-image: url('img/Bottles-Wine.png');
+	width: 255px;
+	height: 228px;
+	margin-left: 30px;
+}
+/*________________________________________*/
+		
+/*Страница для записи на дегустацию, 4 секция*/		
+
+.Subscribe-Section{
+	max-width: 1920px ;
+	min-height: 767px;
+	height: 100%;
+	background-color:#282828;
+	display: flex;
+	flex-direction: column;
+}
+
+.Subscribe-Tasting{
+	max-width: 1110px;
+	width: 100%;
+	min-height: 538px;
+	border: 3px solid #C4C4C4;
+	position: relative;	
+}
+
+.Form-Section-Main{
+	margin: auto;
+	margin-top: 129px;
+}
+
+.Subscribe-Tasting_Box-Title{
+	width: 490px;
+	min-height: 54px;
+	position: absolute;
+	right: 310px;
+	top: -41px;
+	background-color:#282828;
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.Subscribe-Tasting_Title{
+	color: white;
+	font-size: 36px;
+	font-family: 'Playfair Display', 'Montserrat', serif;
+	margin: 0 auto;	
+}
+
+
+.Subscribe-Tasting_img--left{
+	display: block;
+	position: absolute;
+	top: -72px;
+	left: -20px;
+}
+
+.Subscribe-Tasting_img--right{
+	display: block;
+	position: absolute;
+	right: -55px;
+	top: -70px;
+}
+
+.Subscribe-Tasting_Info{
+	color: white;
+	width: 539px;
+	margin: 105px auto 81px;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	position: relative;
+}
+
+.Subscribe-Tasting_Info::before{
+	content: "";
+	position: absolute;
+	width: 118px;
+	height: 1px;
+	background-color: #FFFFFF;
+	top: -40px;
+	right: 40%;
+}
+
+.Subscribe-Tasting_Form-Group{
+	width: 553px;
+	margin: 0 auto 80px;
+}
+
+.Input-Main{
+	background-color: #282828;
+	color: white;
+	border: 1px solid #282828 ;
+	width: 255px;
+	height: 20px;
+	padding: 0;
+	font-size: 13px;
+	font-weight: 500;
+	font-family:'Montserrat', sans-serif;
+}
+
+.Input-Main::placeholder{
+	color: white;
+}
+
+.Subscribe-Tasting__Button-Subs{
+	margin-top: 50px;
+	width: 553px;
+	height: 50px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+}
+
+.Subscribe-Tasting__Button-Link{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+.Subscribe-Tasting__Input-Name{
+	margin-right: 31px;	
+}
+
+.Subscribe-Tasting__Input-Adress{
+	margin-top: 40px;
+	width: 553px;
+}
+
+/*Подвал сайта*/
+.Wrapper-Footer{
+	max-width: 1920px;
+	min-height: 220px;
+	height: 100%;
+	background-color:#998431 ;
+	display: flex;
+}
+
+.Page-Footer{
+	min-width: 1110px;
+	min-height: 120px;
+	height: 100%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.Footer{
+	margin: auto;
+}
+
+/*Навигация футер*/
+
+.Menu-Navigation{
+	width: 1110px;
+	min-height: 60px;
+	
+}
+
+.Menu-Navigation_List{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 19px 93px 20px 95px;
+	margin: 0;
+}
+	
+.Menu-Navigation_Link{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.Contacts{
+	box-sizing: border-box;
+	max-width: 1110px;
+	min-height: 60px;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	border-top: 1px solid white;
+}
+
+.Contacts_Name-Shop{
+	width: 350px;
+	border-right: 1px solid white ;
+	box-sizing: border-box;
+}
+
+.Shop-Title{
+	width: 200px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 20px;
+	margin-left: 95px;
+	border: none;
+}
+
+.Contacts_Phone-Shop{
+	width: 235px;
+	border-right: 1px solid white ;
+}
+
+.Tel-Shop{
+	display: block;
+	text-decoration: none;
+	color: white;
+	border: 0;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.Contacts_Social{
+	width: 260px;
+	border-right: 1px solid white ;
+	display: flex;
+	justify-content:center;
+}
+
+.Icon-YouTube{
+	margin-right: 36px;
+	margin-top: 20px;
+}
+
+.Icon-VK{
+	margin-right: 42px ;
+	margin-top: 20px;
+}
+
+.Icon-FB{
+	margin-top: 20px;
+}
+
+.Contacts_Copyright{
+	width: 265px;
+	margin-top: 20px;
+}
+
+.Copyright{
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+}
